@@ -1,4 +1,3 @@
---Made by master
 -- Gui to Lua
 -- Version: 3.2
 
@@ -55,7 +54,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.263713121, 0, 0.072359845, 0)
 TextLabel.Size = UDim2.new(0, 91, 0, 50)
-TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Font = Enum.Font.GothamBlack
 TextLabel.Text = "Master Hub Created By Master Aga#6210"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 20.000
@@ -71,7 +70,7 @@ autres.Parent = _31
 autres.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
 autres.Position = UDim2.new(0.0479850844, 0, 0.775837958, 0)
 autres.Size = UDim2.new(0, 200, 0, 50)
-autres.Font = Enum.Font.SourceSans
+autres.Font = Enum.Font.GothamBlack
 autres.Text = "Autres Hub"
 autres.TextColor3 = Color3.fromRGB(255, 255, 255)
 autres.TextSize = 20.000
@@ -87,7 +86,7 @@ car.Parent = _31
 car.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
 car.Position = UDim2.new(0.0497387126, 0, 0.200418949, 0)
 car.Size = UDim2.new(0, 200, 0, 50)
-car.Font = Enum.Font.SourceSans
+car.Font = Enum.Font.GothamBlack
 car.Text = "Car Gui"
 car.TextColor3 = Color3.fromRGB(255, 255, 255)
 car.TextSize = 20.000
@@ -103,7 +102,7 @@ inf.Parent = _31
 inf.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
 inf.Position = UDim2.new(0.506868482, 0, 0.777932882, 0)
 inf.Size = UDim2.new(0, 200, 0, 50)
-inf.Font = Enum.Font.SourceSans
+inf.Font = Enum.Font.GothamBlack
 inf.Text = "infinite yield"
 inf.TextColor3 = Color3.fromRGB(255, 255, 255)
 inf.TextSize = 20.000
@@ -119,7 +118,7 @@ kapa.Parent = _31
 kapa.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
 kapa.Position = UDim2.new(0.86272186, 0, 0.010474775, 0)
 kapa.Size = UDim2.new(0, 50, 0, 50)
-kapa.Font = Enum.Font.SourceSans
+kapa.Font = Enum.Font.GothamBlack
 kapa.Text = "X"
 kapa.TextColor3 = Color3.fromRGB(255, 255, 255)
 kapa.TextSize = 20.000
@@ -131,7 +130,7 @@ mini.Parent = _31
 mini.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
 mini.Position = UDim2.new(0.73605454, 0, 0.00768148899, 0)
 mini.Size = UDim2.new(0, 50, 0, 50)
-mini.Font = Enum.Font.SourceSans
+mini.Font = Enum.Font.GothamBlack
 mini.Text = "-"
 mini.TextColor3 = Color3.fromRGB(255, 255, 255)
 mini.TextSize = 20.000
@@ -143,7 +142,7 @@ mm2.Parent = _31
 mm2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
 mm2.Position = UDim2.new(0.508686066, 0, 0.199720547, 0)
 mm2.Size = UDim2.new(0, 200, 0, 50)
-mm2.Font = Enum.Font.SourceSans
+mm2.Font = Enum.Font.GothamBlack
 mm2.Text = "Murder Mystery 2"
 mm2.TextColor3 = Color3.fromRGB(255, 255, 255)
 mm2.TextSize = 20.000
@@ -159,13 +158,13 @@ OpGui.Parent = _31
 OpGui.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
 OpGui.Position = UDim2.new(0.618159711, 0, 0.38966471, 0)
 OpGui.Size = UDim2.new(0, 148, 0, 50)
-OpGui.Font = Enum.Font.SourceSans
-OpGui.Text = "Phantom Forces"
+OpGui.Font = Enum.Font.GothamBlack
+OpGui.Text = "Op Gui"
 OpGui.TextColor3 = Color3.fromRGB(255, 255, 255)
 OpGui.TextSize = 20.000
 OpGui.TextWrapped = true
 OpGui.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RbxCheats/RbxCheats/master/Scripts/Prison%20Life%20GUI%20v2.8.lua", true))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/RNWgaqCE", true))()
 end)
 
 UICorner_9.Parent = OpGui
@@ -183,7 +182,7 @@ ac_2.Name = "ac"
 ac_2.Parent = ac
 ac_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 ac_2.Size = UDim2.new(0, 145, 0, 30)
-ac_2.Font = Enum.Font.SourceSans
+ac_2.Font = Enum.Font.GothamBlack
 ac_2.Text = "Master Hub"
 ac_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 ac_2.TextSize = 14.000
