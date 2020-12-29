@@ -1,10 +1,225 @@
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback 
+--Made by master
+-- Gui to Lua
+-- Version: 3.2
 
-game.StarterGui:SetCore("SendNotification", { 
-	Title = "Master Hub Bakımda!"; 
-	Text = "Master Hub Bakımda!"; 
-	Icon = "http://www.roblox.com/asset/?id=6155680329"; 
-	Duration = 5; 
-	Callback = NotificationBindable; 
-})	
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local _31 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local ImageButton = Instance.new("ImageButton")
+local autres = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local car = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local inf = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local kapa = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local mini = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local mm2 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local OpGui = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local ac = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local ac_2 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+_31.Name = "31"
+_31.Parent = ScreenGui
+_31.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+_31.Position = UDim2.new(0.337665468, 0, 0.254233181, 0)
+_31.Size = UDim2.new(0, 475, 0, 358)
+
+UICorner.Parent = _31
+
+Frame.Parent = _31
+Frame.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Frame.Position = UDim2.new(-0.00210526306, 0, -0.00186792389, 0)
+Frame.Size = UDim2.new(0, 475, 0, 59)
+
+UICorner_2.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.263713121, 0, 0.072359845, 0)
+TextLabel.Size = UDim2.new(0, 91, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Master Hub Created By Master Aga#6210"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+ImageButton.Parent = Frame
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.Position = UDim2.new(0.032896664, 0, 0.91981715, 0)
+ImageButton.Size = UDim2.new(0, 435, 0, 291)
+ImageButton.Image = "http://www.roblox.com/asset/?id=6155680325"
+
+autres.Name = "autres"
+autres.Parent = _31
+autres.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+autres.Position = UDim2.new(0.0479850844, 0, 0.775837958, 0)
+autres.Size = UDim2.new(0, 200, 0, 50)
+autres.Font = Enum.Font.SourceSans
+autres.Text = "Autres Hub"
+autres.TextColor3 = Color3.fromRGB(255, 255, 255)
+autres.TextSize = 20.000
+autres.TextWrapped = true
+autres.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ahnpdevelop/gui/main/al", true))()
+end)
+
+UICorner_3.Parent = autres
+
+car.Name = "car"
+car.Parent = _31
+car.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+car.Position = UDim2.new(0.0497387126, 0, 0.200418949, 0)
+car.Size = UDim2.new(0, 200, 0, 50)
+car.Font = Enum.Font.SourceSans
+car.Text = "Car Gui"
+car.TextColor3 = Color3.fromRGB(255, 255, 255)
+car.TextSize = 20.000
+car.TextWrapped = true
+car.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+end)
+
+UICorner_4.Parent = car
+
+inf.Name = "inf"
+inf.Parent = _31
+inf.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+inf.Position = UDim2.new(0.506868482, 0, 0.777932882, 0)
+inf.Size = UDim2.new(0, 200, 0, 50)
+inf.Font = Enum.Font.SourceSans
+inf.Text = "infinite yield"
+inf.TextColor3 = Color3.fromRGB(255, 255, 255)
+inf.TextSize = 20.000
+inf.TextWrapped = true
+inf.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_5.Parent = inf
+
+kapa.Name = "kapa"
+kapa.Parent = _31
+kapa.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+kapa.Position = UDim2.new(0.86272186, 0, 0.010474775, 0)
+kapa.Size = UDim2.new(0, 50, 0, 50)
+kapa.Font = Enum.Font.SourceSans
+kapa.Text = "X"
+kapa.TextColor3 = Color3.fromRGB(255, 255, 255)
+kapa.TextSize = 20.000
+
+UICorner_6.Parent = kapa
+
+mini.Name = "mini"
+mini.Parent = _31
+mini.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+mini.Position = UDim2.new(0.73605454, 0, 0.00768148899, 0)
+mini.Size = UDim2.new(0, 50, 0, 50)
+mini.Font = Enum.Font.SourceSans
+mini.Text = "-"
+mini.TextColor3 = Color3.fromRGB(255, 255, 255)
+mini.TextSize = 20.000
+
+UICorner_7.Parent = mini
+
+mm2.Name = "mm2"
+mm2.Parent = _31
+mm2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+mm2.Position = UDim2.new(0.508686066, 0, 0.199720547, 0)
+mm2.Size = UDim2.new(0, 200, 0, 50)
+mm2.Font = Enum.Font.SourceSans
+mm2.Text = "Murder Mystery 2"
+mm2.TextColor3 = Color3.fromRGB(255, 255, 255)
+mm2.TextSize = 20.000
+mm2.TextWrapped = true
+mm2.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+UICorner_8.Parent = mm2
+
+OpGui.Name = "OpGui"
+OpGui.Parent = _31
+OpGui.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+OpGui.Position = UDim2.new(0.618159711, 0, 0.38966471, 0)
+OpGui.Size = UDim2.new(0, 148, 0, 50)
+OpGui.Font = Enum.Font.SourceSans
+OpGui.Text = "Phantom Forces"
+OpGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpGui.TextSize = 20.000
+OpGui.TextWrapped = true
+OpGui.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RbxCheats/RbxCheats/master/Scripts/Prison%20Life%20GUI%20v2.8.lua", true))()
+end)
+
+UICorner_9.Parent = OpGui
+
+ac.Name = "ac"
+ac.Parent = ScreenGui
+ac.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ac.Position = UDim2.new(0, 0, 0.54126215, 0)
+ac.Size = UDim2.new(0, 115, 0, 24)
+ac.Visible = false
+
+UICorner_10.Parent = ac
+
+ac_2.Name = "ac"
+ac_2.Parent = ac
+ac_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+ac_2.Size = UDim2.new(0, 145, 0, 30)
+ac_2.Font = Enum.Font.SourceSans
+ac_2.Text = "Master Hub"
+ac_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ac_2.TextSize = 14.000
+
+UICorner_11.Parent = ac_2
+
+_31.Draggable = true
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Master Hub",
+	Text = "Master Hub'a Hoş Geldin!"
+})
+
+kapa.MouseButton1Down:connect(function()
+	ScreenGui:Destroy()
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Master Hub",
+		Text = "Görüşürüz!"
+	})
+
+end)
+mini.MouseButton1Down:connect(function()
+	_31.Visible = false
+	ac.Visible = true
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Master Hub",
+		Text = "Minimazed"
+	})
+
+end)
+ac_2.MouseButton1Down:connect(function()
+	_31.Visible = true
+	ac.Visible = false
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Master Hub",
+		Text = "Opened"
+	})
+
+end)--by roblox_master00x
