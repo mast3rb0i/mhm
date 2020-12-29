@@ -160,12 +160,12 @@ OpGui.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
 OpGui.Position = UDim2.new(0.618159711, 0, 0.38966471, 0)
 OpGui.Size = UDim2.new(0, 148, 0, 50)
 OpGui.Font = Enum.Font.SourceSans
-OpGui.Text = "Op Gui"
+OpGui.Text = "Shinobi Life 2"
 OpGui.TextColor3 = Color3.fromRGB(255, 255, 255)
 OpGui.TextSize = 20.000
 OpGui.TextWrapped = true
 OpGui.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/SiLeNSwOrD/OwlHub/master/OwlHub.txt'))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2_autofarm/main/main.lua", true))()
 end)
 
 UICorner_9.Parent = OpGui
