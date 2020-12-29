@@ -165,7 +165,7 @@ OpGui.TextColor3 = Color3.fromRGB(255, 255, 255)
 OpGui.TextSize = 20.000
 OpGui.TextWrapped = true
 OpGui.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2_autofarm/main/main.lua", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RbxCheats/RbxCheats/master/Scripts/Prison%20Life%20GUI%20v2.8.lua", true))()
 end)
 
 UICorner_9.Parent = OpGui
