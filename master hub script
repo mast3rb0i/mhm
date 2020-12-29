@@ -1,6 +1,10 @@
-game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Master Hub",
-		Text = "Master Hub Bakımda!"
-	})
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback 
 
-end)
+game.StarterGui:SetCore("SendNotification", { 
+	Title = "Master Hub Bakımda!"; 
+	Text = "Master Hub Bakımda!"; 
+	Icon = "http://www.roblox.com/asset/?id=6155680329"; 
+	Duration = 5; 
+	Callback = NotificationBindable; 
+})	
